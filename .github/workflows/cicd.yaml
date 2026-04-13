@@ -39,3 +39,4 @@ jobs:
         docker tag netflix_backend:latest 004947744013.dkr.ecr.us-east-2.amazonaws.com/netflix_backend:${GITHUB_RUN_NUMBER}
         docker push 004947744013.dkr.ecr.us-east-2.amazonaws.com/netflix_backend:${GITHUB_RUN_NUMBER}
 
+
